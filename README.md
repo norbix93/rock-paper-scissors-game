@@ -1,2 +1,2 @@
 # rock-paper-scissors-game
-This is my solution to the rock paper scissors game challenge.
+This is my solution for the rock paper scissors game challenge.
