@@ -1,16 +1,16 @@
-# 🎮 Rock Paper Scissors Lizard Spock
+# Rock Paper Scissors Lizard Spock
 
 A Java CLI implementation of the classic **Rock-Paper-Scissors-Lizard-Spock** game, 
 popularized by the TV show *The Big Bang Theory*.
 
-## ✨ Features
+## Features
 
 - **Two game modes**: Human vs. Computer or Computer vs. Computer
 - **Five moves**: Rock, Paper, Scissors, Lizard, Spock
 - **Clean OOP design** with enum-based moves, dependency injection, and full test coverage
 - **Java 17** with text blocks and switch expressions
 
-## 📐 Rules
+## Rules
 
 | Move     | Defeats                |
 |----------|------------------------|
@@ -20,7 +20,7 @@ popularized by the TV show *The Big Bang Theory*.
 | Lizard   | Spock, Paper           |
 | Spock    | Scissors, Rock         |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 17+
@@ -38,7 +38,7 @@ mvn clean compile exec:java -Dexec.mainClass="com.norbix.rps.GameApplication"
 mvn test
 ```
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 src/main/java/com/norbix/rps/
@@ -54,13 +54,13 @@ src/main/java/com/norbix/rps/
     └── Computer.java         # Random-move player
 ```
 
-## 🧪 Testing
+## Testing
 
 Tests cover all game logic:
-- `MoveTest` — move names, lookup, defeat rules (all 20 pairs)
-- `JudgeTest` — every winning, losing, and draw combination
-- `ComputerTest` — move selection, deterministic with seeded Random
+- `MoveTest` -- move names, lookup, defeat rules (all 20 pairs)
+- `JudgeTest` -- every winning, losing, and draw combination
+- `ComputerTest` -- move selection, deterministic with seeded Random
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
